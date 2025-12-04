@@ -4,7 +4,7 @@ import "./App.css";
 function AboutPage({ formData, setFormData }) {
   const [image, setImage] = useState(null);
 
-  // Handle image upload
+  
   const handleImageChange = (e) => {
     const file = e.target.files[0];
     if (file) {
@@ -55,3 +55,4 @@ function AboutPage({ formData, setFormData }) {
 }
 
 export default AboutPage;
+
